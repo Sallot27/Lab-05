@@ -1,0 +1,51 @@
+.note {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-style: italic;
+  }
+
+  .gallery-header {
+    color: #333;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#add-photo {
+  margin-top: 10px;
+}
